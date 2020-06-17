@@ -1,7 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-
+import { Button } from 'antd';
 function App() {
   return (
     <div className="App">
@@ -18,6 +18,8 @@ function App() {
         >
           Learn Reacts
         </a>
+        <Button type="primary">Primary Buttosns</Button>
+
       </header>
     </div>
   );
